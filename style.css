@@ -182,6 +182,18 @@ nav a:hover {
     color: #00e5a0;
 }
 
+#contact {
+    text-align: center;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
