@@ -164,8 +164,8 @@ nav a:hover {
 }
 
 .contact-list a {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     background: #161616;
     border: 1px solid #2a2a2a;
     border-radius: 10px;
@@ -188,10 +188,30 @@ nav a:hover {
 
 .contact-list {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    list-style: none;
-    padding;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.2s ease;
+}
+
+.contact-item:hover {
+    color: #00ff88;
+}
+
+.contact-item svg rect {
+    transition: opacity 0.2s ease;
+}
+
+.contact-item:hover svg rect {
+    opacity: 0.25;
 }
 
 /* FOOTER */
